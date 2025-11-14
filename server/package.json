@@ -1,0 +1,44 @@
+{
+  "name": "server",
+  "version": "0.1.0",
+  "description": "Express + TypeScript API for the Ananta CLI platform.",
+  "main": "src/index.ts",
+  "author": "Annata Sharma",
+  "keywords": [
+    "ananta",
+    "cli",
+    "express",
+    "typescript",
+    "api"
+  ],
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "start": "tsx src/index.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "license": "ISC",
+  "type": "module",
+  "engines": {
+    "node": ">=20.0.0",
+    "npm": ">=10.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anantasharma510/ananta-custom-ai-cli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/anantasharma510/ananta-custom-ai-cli/issues"
+  },
+  "homepage": "https://github.com/anantasharma510/ananta-custom-ai-cli#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.5",
+    "@types/node": "^24.10.1",
+    "tsx": "^4.20.6",
+    "typescript": "^5.9.3"
+  }
+}
